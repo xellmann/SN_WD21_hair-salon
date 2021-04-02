@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="jumbotron bg-secondary text-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <h1 class="col-sm-4">hairdresser hans</h1>
+                <nav class="col-sm-8 text-end">
+                    <a href="#" class="text-decoration-none text-white">Our services</a>
+                    <a href="#" class="text-decoration-none text-white">Make an appointment</a>
+                    <a href="#" class="text-decoration-none text-white">FAQ</a>
+                    <a href="#" class="text-decoration-none text-white">About us</a>
+                    <a href="#" class="text-decoration-none text-white">FAQ</a>
+                    <input class="" type="search" placeholder="search">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <!-- LANDING ABSCHNITT -->
+    <section class="jumbotron">
+        <div class=container>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./jpg/hanshairdresser1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./jpg/hanshairdresser2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./jpg/hanshairdresser3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./jpg/hanshairdresser4.jpg" alt="Forth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- SERVICES ABSCHNITT -->
+    <section class="jumbotron">
+        <div class=container>
+            <div class="row ">
+                <h2 class="p-3 text-center">Our services</h2>
+                <div class="col-sm-10 col-lg-3 m-auto">
+                    <div class="card">
+                        <div class="card-block">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="card-title">Styling</h3>
+                                <img src="./jpg/styling.png" class="img-fluid w-25">
+                            </div>
+                        </div>
+                        <img src="./jpg/barberlogo.jpg" class="card-img-bottom img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-10 col-lg-3 m-auto">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Coloring</h3>
+                        </div>
+                        <img src="./jpg/barberlogo.jpg" class="card-img-bottom img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-10 col-lg-3 m-auto">
+                    <div class="card">
+                        <div class="card-block">
+                            <h3 class="card-title">Haircuts</h3>
+                        </div>
+                        <img src="./jpg/barberlogo.jpg" class="card-img-bottom img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- KONTAKT ABSCHNITT -->
+    <section class="jumbotron">
+        <div class=container>
+            <div class="row text-center">
+                <h2>Make an appointment</h2>
+                <div class="col-sm-6">
+                    <div class="card-body p-3">
+                        <div class="form-group">
+                            <div class="input-group mb-4">
+                                <input type="text" class="form-control" id="contactname" placeholder="first and last name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-4">
+                                <input type="text" class="form-control" id="contactphonenumer" placeholder="phone number" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-4">
+                                <input type="text" class="form-control" id="contactdate" placeholder="date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-4">
+                                <input type="text" class="form-control" id="contactinfo" placeholder="Other info (haircut wishes etc.)" required>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input mb-4" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label text-center mb-4" for="defaultCheck1">
+                                I agree that Hans is the best hairdresser
+                            </label>
+                        </div>
+                        <div class="">
+                            <button type="button" class="btn btn-secondary btn-lg">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Working hours</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Monday</th>
+                                <td>08.00 - 16.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tuesday</th>
+                                <td>10.00 - 18.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wednesday</th>
+                                <td>08.00 - 16.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thursday</th>
+                                <td>08.00 - 16.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Friday</th>
+                                <td>12.00 - 20.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saturday</th>
+                                <td>08.00 - 16.00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sunday</th>
+                                <td>08.00 - 12.00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- FAQ ABSCHNITT -->
+    <section class="jumbotron">
+        <div class=container>
+            <div class="row text-center">
+                <h2>FAQ (frequently asked questions)</h2>
+            </div>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h4 class="mb-0">
+                            <button class="btn btn-lg" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Do you have gift certificates?
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Gift certificates are available for purchase in the salon or over the phone. If you purchase a gift certificate over the phone, we can either mail it to your lucky recipient or simply keep it in our files. Elixir salon gift certificates are not redeemable for cash or refundable.
+                        </div>
+                    </div>
+                </div>
+            <br>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h4 class="mb-0">
+                            <button class="btn btn-lg collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Can I bring my pet along?
+                            </button>
+                        </h4>
+                    </div>
+                    <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+            <br>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h4 class="mb-0">
+                            <button class="btn btn-lg collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What awards did you receive so far?
+                            </button>
+                        </h4>
+                    </div>
+                    <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- FOOTER ABSCHNITT -->
+    <footer class="footer bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <ul class="col-sm-4 list-unstyled">
+                    <li class="h3">Contact</li>
+                    <li>hairdresser hans GmbH</li>
+                    <li>Tax number: 32156324</li>
+                    <li>Mustergasse 5, 1111 Wien</li>
+                    <li>Phone: 01234 / 3654 64 68</li>
+                    <li>Email: hdhans@hans.com</li>
+                </ul>
+                <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                    <img src="./jpg/barberlogo.jpg" class="w-25" alt="Barbershop">
+                </div>
+                <div class="col-sm-4 justify-content-end">
+                    <ul class="list-unstyled">
+                        <li class="h3">Navigation</li>
+                        <li><a href="#" class="text-decoration-none text-white">Our services</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">Make an appointment</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <a class="col-sm-12 text-center text-decoration-none text-muted" href="#">&copy; 2021 hairdresser hans</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
